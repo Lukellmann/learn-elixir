@@ -17,7 +17,7 @@ IO.puts l
 
 [head | tail] = [1, 2, 3]
 IO.puts head
-IO.puts length(tail)
+IO.inspect tail
 
 list = [1, 2, 3]
-IO.puts length([0 | list])
+IO.inspect [0 | list]

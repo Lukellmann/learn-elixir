@@ -9,7 +9,7 @@ result2 = unless true do
   "This will never be seen"
 end
 
-IO.puts result2 == nil
+IO.inspect result2
 
 
 result3 = if nil do

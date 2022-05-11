@@ -6,8 +6,8 @@ IO.puts 9 ** 10
 IO.puts div 11, 12
 IO.puts rem 13, 14
 
-IO.puts length([1, 2, 3] ++ [4, 5, 6])
-IO.puts length([1, 2, 3] -- [2])
+IO.inspect [1, 2, 3] ++ [4, 5, 6]
+IO.inspect [1, 2, 3] -- [2]
 
 IO.puts "foo" <> "bar"
 
@@ -19,7 +19,7 @@ IO.puts true or raise "This error will never be raised"
 
 IO.puts 1 || true
 IO.puts false || 11
-IO.puts nil && 13
+IO.inspect nil && 13
 IO.puts true && 17
 IO.puts !true
 IO.puts !1
